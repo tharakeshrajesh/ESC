@@ -1,0 +1,1 @@
+I'm too lazy to add anymore LCSC part numbers to the JLCPCB BOM so you will have to do most of them yourself.

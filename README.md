@@ -6,6 +6,9 @@ __IT IS CURRENTLY UNTESTED SO TEST IT AT YOUR OWN WILL.__ <br>
 <br>
 I recommend reading all the README in each folder. **They are not all the same.**
 
+## Some other info
+This is a custom ESC made from scratch including a MOSFET half-bridge meant for brushless DC motors. Switches phases at high speeds. It takes in 12v and 20a from an XT60 male connector. You can program the STM microcontroller using the SWD header pins located on the board. There are two status LEDs (one on each side) to help with debugging if needed. The LED on the back of the board (D1) is connected to the gate driver fault pins so it will turn on if there is an error with the gate driver. The LED on the front (D3) is connected to the STM32 micocontroller and can be programmed for debugging or something (connected to pin 40). There are NO phase pads or bullet connectors located on the board for this revision so you will need to use alligator clips or something on the MOSFET source pins/body.
+
 # Schematics
 <img width="1051" height="727" alt="image" src="https://github.com/user-attachments/assets/cc819aaf-e11c-46c1-bec7-2d8c0508cd49" />
 
